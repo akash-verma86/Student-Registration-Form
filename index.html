@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsonPowerDB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Student Registration Form</h2>
+        </div>
+        <form id="form-id">
+            <div class="input-field">
+                <label>Roll-No :</label><br>
+                <input type="number" id="st-id" class="form-cnt" onchange="getSt()">
+            </div>
+            <div class="input-field">
+                <label>Full-Name : </label><br>
+                <input type="text" id="st-name" class="form-cnt">
+            </div>
+            <div class="input-field">
+                <label>Class: </label><br>
+                <input type="number" id="st-class" class="form-cnt" >
+            </div>
+            <div class="input-field">
+                <label>Birth-Date : </label><br>
+                <input type="text" id="st-birth" class="form-cnt" >
+            </div>
+            <div class="input-field">
+                <label>Address :</label><br>
+                <input type="text" id="st-address" class="form-cnt" >
+            </div>
+            <div class="input-field">
+                <label>Enrollment-Date :</label><br>
+                <input type="text" id="st-enroll" class="form-cnt" >
+            </div>
+            <div class="all-bttons">
+                <button type="button" class="btn" id="save" onclick="saveData()" disabled>Save</button>
+                <button type="button" class="btn" id="change" onclick="changeData()" disabled>Change</button>
+                <button type="button" class="btn" id="reset" onclick="resetForm()" disabled>Reset</button>
+            </div>
+        </form>
+    </div>
+   
+</body>
+       <script src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+       <script src="script.js"></script>
+</html>
