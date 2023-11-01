@@ -1,2 +1,2 @@
-# Student-Registration-Form
-#Title
+# Title
+Student Registration Form
